@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title(" Giancarlo Di Donato")
 
 col1, col2, col3 = st.columns([3,2,3])
 
