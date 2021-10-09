@@ -82,7 +82,7 @@ with st.expander("Bachelor's Degree in Economics"):
     st.markdown('''
     Thesis in technical Analysis: *"The correlation among the main financial markets".*
 
-    ** Keywords**: Technical analysis, R, Statistical analisis, Pearson coefficient,Regression,Seasonal/Cyclic/Trend, Time Series, adjustmentsDow Jones,Nikkei,Ftse 100, Ftse Mib.
+    ** Keywords**: Technical analysis, R, Statistical analisis, Pearson coefficient, Regression, Seasonal/Cyclic/Trend adjustments, Time Series, Dow Jones,Nikkei,Ftse 100, Ftse Mib.
     
     **Knowledge:**
     * Statistics, Mathematics
