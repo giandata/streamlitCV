@@ -79,7 +79,6 @@ with st.expander("Master's Degree in Business Administration & Management"):
 
 with st.expander("Bachelor's Degree in Economics"):
     st.write("University of Foggia: September 2008 - October 2012")
-    st.write("Final grade: **110 with Honors**")
     st.markdown('''
     Thesis in technical Analysis: *"The correlation among the main financial markets".*
 
