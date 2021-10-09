@@ -11,8 +11,8 @@ col1, col2, col3 = st.columns([4,2,1])
 with col1:
     st.title(" Giancarlo Di Donato")
     st.markdown('''#### Business Analyst''')
-    st.write('📧 didonatogiancarlo89@gmail.com')
-    st.markdown("""[**LinkedIn**](www.linkedin.com/in/giancarlodidonato) | [**Tableau Public**](https://public.tableau.com/app/profile/giancarlo4226) |                 [**Articles**](https://www.linkedin.com/in/giancarlodidonato/detail/recent-activity/posts/)""")
+    st.markdown('''📧 mailto:didonatogiancarlo89@gmail.com''')
+    st.markdown('''[**LinkedIn**](www.linkedin.com/in/giancarlodidonato) | [**Tableau Public**](https://public.tableau.com/app/profile/giancarlo4226) | [**Articles**](https://www.linkedin.com/in/giancarlodidonato/detail/recent-activity/posts/) | [**Source code**](https://github.com/giandata/streamlitCV)'''  )
 
 with col2:
     st.image("pic.png")
