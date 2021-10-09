@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title(" Giancarlo Di Donato")
-st.image("milano.png")
+st.image("pic.png")
 
 st.write("A data driven professional, self and continuos learner. Coming from an economics background, nurtured and developed a great passion for Data Science. Technical profile with experience in organization and team management.")
 
