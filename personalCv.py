@@ -2,13 +2,23 @@ import streamlit as st
 
 st.title(" Giancarlo Di Donato")
 
+col1, col2, col3 = st.beta_columns([1,6,1])
+
+with col1:
+st.write("")
+
+with col2:
 st.image("pic.png")
+
+with col3:
+st.write("")
+
 
 st.write("A data driven professional, self and continuos learner. Coming from an economics background, nurtured and developed a great passion for Data Science. Technical profile with experience in organization and team management.")
 
 st.header('''My previously developed applications:
 
-[Forecast App]([https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
+[Forecast App](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
 
 [Vaccines Tracking (Italy)](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
 ''')
