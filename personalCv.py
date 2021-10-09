@@ -31,7 +31,9 @@ with st.expander("Business Analyst @Adevinta Spain"):
     * Gathering of requirements, data extraction, analysis, visualization and presentation for **product development, feature performance tracking, AB Testing.**
     * Data Governance and documentation of data projects.
     * Developing in-house **coaching for analysts** on analytics tools and innovation initiatives regarding data democracy and advanced analytics.
-    * **Administration of Tableau Server Site**: users and groups management, refresh troubleshooting, mail server alert system integration, testing new versions.''')
+    * Participation in Data Scientist team for experiements design and analysis
+    * Administration of Tableau Server Site: users and groups management, refresh troubleshooting, mail server alert system integration, testing new versions.
+    * **Achievements**: Support in database migration to cloud services; helped company adopting Tableau, defined standard documentation for tracking of events and data QA ''')
 
 with st.expander("Data & Quality Manager @HP Enterprise"):
     st.write("June 2016 - May 2018")
@@ -82,7 +84,7 @@ with st.expander("Bachelor's Degree in Economics"):
     * Financial and economics
      ''')
 
-st.header("Courses & MOOCs")
+st.header("Courses & MOOCs 💻")
 
 with st.expander("2021"):
     st.markdown('''
