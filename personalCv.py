@@ -12,7 +12,7 @@ st.header('''My previously developed applications:
 [Vaccines Tracking (Italy)](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
 ''')
 
-st.header("Professional Experiences")
+st.header("Professional Experiences 💼")
 with st.expander("Business Analyst @Adevinta Spain"):
     st.write("June 2018 - Current")
     st.markdown(''' 
@@ -38,7 +38,7 @@ with st.expander("Technical Advisor & Workforce monitor @WebHelp"):
     * Technical support via inbound calls and emails
     ''')
 
-st.header("Education")
+st.header("Education 🎒")
 with st.expander("Master's Degree in Business Administration & Management"):
     st.write("University of Foggia: October 2012 - March 2015")
     st.write("Final grade: **110 with Honors**")
