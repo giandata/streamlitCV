@@ -1,13 +1,8 @@
 import streamlit as st
 
-with open("style.css") as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
 st.title(" Giancarlo Di Donato")
 
-path = "C:\users\giancarlo\streamlitCV\pic.png"
-image = Image.open(path)
-st.image(path)
+st.image("pic.png")
 
 st.write("A data driven professional, self and continuos learner. Coming from an economics background, nurtured and developed a great passion for Data Science. Technical profile with experience in organization and team management.")
 
