@@ -5,7 +5,7 @@ with open("style.css") as f:
 
 st.title(" Giancarlo Di Donato")
 
-path = "pic.png"
+path = "C:\users\giancarlo\streamlitCV\pic.png"
 image = Image.open(path)
 st.image(path)
 
