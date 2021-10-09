@@ -39,7 +39,7 @@ with st.expander("Business Analyst @Adevinta Spain"):
     * Gathering of requirements, data extraction, analysis, visualization and presentation for **product development, feature performance tracking, AB Testing.**
     * Data Governance and documentation: Tracking requirements, databases sources, data models for dashboards.
     * Developing in-house **coaching for analysts** on analytics tools such as Tableau and Adobe Analytics and innovation initiatives regarding data democracy and advanced analytics.
-    * Participation in Data Scientist team for Machine Learning based experiments design and analysis.
+    * Participation in Data Scientists team for Machine Learning based experiments design and analysis.
     * Administration of Tableau Server Site: users and groups management, refresh troubleshooting, mail server alert system integration, testing new versions.
     * **Achievements**: Support in database migration to cloud services; helped company adopting Tableau, defined standard documentation for tracking of events and data QA ''')
 
