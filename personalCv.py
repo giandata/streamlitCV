@@ -1,5 +1,10 @@
 import streamlit as st
+import plotly.express as px
+import plotly.figure_factory as ff
+import numpy as np
+import pandas as pd
 
+st.set_page_config(page_title ="Giancarlo Di Donato",page_icon="🇮🇹")
 
 col1, col2, col3 = st.columns([4,2,1])
 
@@ -7,7 +12,7 @@ with col1:
     st.title(" Giancarlo Di Donato")
     st.markdown('''#### Business Analyst''')
     st.write('📧 didonatogiancarlo89@gmail.com')
-    st.markdown("[**LinkedIn**](www.linkedin.com/in/giancarlodidonato)        [**Tableau Public**](https://public.tableau.com/app/profile/giancarlo4226)")
+    st.markdown("""[**LinkedIn**](www.linkedin.com/in/giancarlodidonato) | [**Tableau Public**](https://public.tableau.com/app/profile/giancarlo4226) |                 [**Articles**](https://www.linkedin.com/in/giancarlodidonato/detail/recent-activity/posts/)""")
 
 with col2:
     st.image("pic.png")
@@ -31,10 +36,9 @@ st.header("Professional Experiences 💼")
 with st.expander("Business Analyst @Adevinta Spain"):
     st.write("June 2018 - Current")
     st.markdown(''' 
-    * Organized and prioritized work to complete projects in a timely, efficient manner. **Team player**
     * Gathering of requirements, data extraction, analysis, visualization and presentation for **product development, feature performance tracking, AB Testing.**
-    * Data Governance and documentation of data projects.
-    * Developing in-house **coaching for analysts** on analytics tools and innovation initiatives regarding data democracy and advanced analytics.
+    * Data Governance and documentation: Tracking requirements, databases sources, data models for dashboards.
+    * Developing in-house **coaching for analysts** on analytics tools such as Tableau and Adobe Analytics and innovation initiatives regarding data democracy and advanced analytics.
     * Participation in Data Scientist team for Machine Learning based experiments design and analysis.
     * Administration of Tableau Server Site: users and groups management, refresh troubleshooting, mail server alert system integration, testing new versions.
     * **Achievements**: Support in database migration to cloud services; helped company adopting Tableau, defined standard documentation for tracking of events and data QA ''')
@@ -113,3 +117,50 @@ with st.expander("2019"):
     * Business Metrics for data-driven companies, Duke University
     * Data visualizaion and communiation with Tableau, Duke University 
     * Managing Big Data with MySQL, Duke University''')
+
+
+st.header("Tools & Skills 🛠️")
+
+with st.expander("Data skills"):
+
+    df_skill = pd.DataFrame(dict(
+    r=[8, 8, 10, 10, 8,9,9,8,7,8],
+    theta=['Data extraction','Data preparation','Data analysis','Data visualization','Web Applications',
+        'Web data tagging','Digital Analytics','Data Governance','Machine Learning','Forecasting']))
+
+    fig = px.line_polar(df_skill, r='r', theta='theta', line_close=True)
+    fig.update_traces(fill='toself')
+    st.plotly_chart(fig,use_container_width=True)
+
+with st.expander("Softwares & Languages"):
+    df_tool = pd.DataFrame(dict(
+    r=[8, 10, 8, 9, 7,8,9,7,8],
+    theta2=['SQL','Tableau','Streamlit','Adobe Analytics','Python','Jupyter','Excel','Machine Learning','Forecasting']))
+    
+    fig = px.line_polar(df_tool, r='r', theta='theta2', line_close=True)
+    fig.update_traces(fill='toself')
+    st.plotly_chart(fig,use_container_width=True)
+
+with st.expander("Soft Skills"):
+    df_soft = pd.DataFrame(dict(
+    r=[9, 9, 7, 8, 9,8,8,8],
+    theta2=['Communication','Presentation','Market Research','Agile Methodology','Planning & organization','Critical Thinking','Team Management','Project Management']))
+    
+    fig = px.line_polar(df_soft, r='r', theta='theta2', line_close=True)
+    fig.update_traces(fill='toself')
+    st.plotly_chart(fig,use_container_width=True)
+
+st.header("Personal Development 🌱")
+
+with st.expander("Languages"):
+    st.markdown('''
+    * Native Italian
+    * Proficient English
+    * Proficient Spanish''')
+
+with st.expander('Hobbies'):
+    st.markdown('''
+    * Chess, beer crafting
+    * Rock music or Melodic Techno 
+    * Football and archery
+    * Ancient History ''')
