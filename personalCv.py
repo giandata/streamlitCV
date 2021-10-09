@@ -13,7 +13,7 @@ st.header('''My previously developed applications:
 ''')
 
 st.header("Professional Experiences")
-with st.beta_expander("Business Analyst @Adevinta Spain"):
+with st.expander("Business Analyst @Adevinta Spain"):
     st.write("June 2018 - Current")
     st.markdown(''' 
     * Organized and prioritized work to complete projects in a timely, efficient manner. **Team player**
@@ -22,7 +22,7 @@ with st.beta_expander("Business Analyst @Adevinta Spain"):
     * Developing in-house **coaching for analysts** on analytics tools and innovation initiatives regarding data democracy and advanced analytics.
     * **Administration of Tableau Server Site**: users and groups management, refresh troubleshooting, mail server alert system integration, testing new versions.''')
 
-with st.beta_expander("Data & Quality Manager @HP Enterprise"):
+with st.expander("Data & Quality Manager @HP Enterprise"):
     st.write("June 2016 - May 2018")
     st.markdown('''
     * **Coordination and monitoring of team's operations** and planning.
@@ -30,7 +30,7 @@ with st.beta_expander("Data & Quality Manager @HP Enterprise"):
     * **Analysis and reporting automation** of team's performance to key stakeholders.
     ''')
 
-with st.beta_expander("Technical Advisor & Workforce monitor @WebHelp"):
+with st.expander("Technical Advisor & Workforce monitor @WebHelp"):
     st.write("May 2015 - June 2016")
     st.markdown('''
     * **Real time monitoring of SLA and workforce planning**
@@ -39,7 +39,7 @@ with st.beta_expander("Technical Advisor & Workforce monitor @WebHelp"):
     ''')
 
 st.header("Education")
-with st.beta_expander("Master's Degree in Business Administration & Management"):
+with st.expander("Master's Degree in Business Administration & Management"):
     st.write("University of Foggia: October 2012 - March 2015")
     st.write("Final grade: **110 with Honors**")
     st.markdown('''
@@ -56,7 +56,7 @@ with st.beta_expander("Master's Degree in Business Administration & Management")
      ''')
      
 
-with st.beta_expander("Bachelor's Degree in Economics"):
+with st.expander("Bachelor's Degree in Economics"):
     st.write("University of Foggia: September 2008 - October 2012")
     st.write("Final grade: **110 with Honors**")
     st.markdown('''
@@ -73,14 +73,14 @@ with st.beta_expander("Bachelor's Degree in Economics"):
 
 st.header("Courses & MOOCs")
 
-with st.beta_expander("2021"):
+with st.expander("2021"):
     st.markdown('''
     * 2021 Python for Machine Learning & Data Science Masterclass
     * Building machine Learning Web Apps with Python
     * Getting started with AWS Machine Learning
     * Web Application from scratch with Streamlit
     ''')
-with st.beta_expander("2020"):
+with st.expander("2020"):
     st.markdown('''
     * Tableau Data Scientist
     * Tableau Designer
@@ -88,7 +88,7 @@ with st.beta_expander("2020"):
     * Tableau  Developer
     * Create bespoke visualizations with Tableau
     ''')
-with st.beta_expander("2019"):
+with st.expander("2019"):
     st.markdown('''
     * Python for Data Science & Machine Learning Bootcamp, Pieran Data
     * Python Bootcamp: from 0 to hero, Pieran Data
