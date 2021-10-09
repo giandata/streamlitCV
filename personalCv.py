@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns([5,2,1])
 
 with col1:
     st.title(" Giancarlo Di Donato")
-    st.markdown('''## Business Analyst''')
+    st.markdown('''#### Business Analyst''')
 
 with col2:
     st.image("pic.png")
