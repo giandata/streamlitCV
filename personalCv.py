@@ -134,7 +134,7 @@ with st.expander("Data skills"):
 with st.expander("Softwares & Languages"):
     df_tool = pd.DataFrame(dict(
     r=[8, 10, 8, 9, 7,8,9,7,8],
-    theta2=['SQL','Tableau','Streamlit','Adobe Analytics','Python','Jupyter','Excel','Machine Learning','Forecasting']))
+    theta2=['SQL','Tableau','Streamlit','Adobe Analytics','Python','Jupyter','Excel','Machine Learning','Prophet']))
     
     fig = px.line_polar(df_tool, r='r', theta='theta2', line_close=True)
     fig.update_traces(fill='toself')
