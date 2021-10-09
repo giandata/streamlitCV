@@ -1,11 +1,13 @@
 import streamlit as st
 
 
-col1, col2, col3 = st.columns([5,2,1])
+col1, col2, col3 = st.columns([4,2,1])
 
 with col1:
     st.title(" Giancarlo Di Donato")
-    st.markdown('#### Business Analyst' )
+    st.markdown('''#### Business Analyst''')
+    st.write('📧 didonatogiancarlo89@gmail.com')
+    st.markdown("[**LinkedIn**](www.linkedin.com/in/giancarlodidonato)        [**Tableau Public**](https://public.tableau.com/app/profile/giancarlo4226)")
 
 with col2:
     st.image("pic.png")
@@ -20,9 +22,9 @@ st.write("A data driven professional, self and continuos learner. Coming from an
 
 st.markdown('''#### My previously developed applications:
 
-[** Forecast App **](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
+ * [** Forecast App **](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
 
-[** Vaccines Tracking (Italy) **](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
+* [** Vaccines Tracking (Italy) **](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
 ''')
 
 st.header("Professional Experiences 💼")
