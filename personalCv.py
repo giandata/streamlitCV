@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns([5,2,1])
 
 with col1:
     st.title(" Giancarlo Di Donato")
-    st.markdown('#### Businness Analyst' )
+    st.markdown('#### Business Analyst' )
 
 with col2:
     st.image("pic.png")
@@ -16,11 +16,13 @@ with col3:
 
 st.write("A data driven professional, self and continuos learner. Coming from an economics background, nurtured and developed a great passion for Data Science. Technical profile with experience in organization and team management.")
 
-st.header('''My previously developed applications:
 
-[Forecast App](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
 
-[Vaccines Tracking (Italy)](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
+st.markdown('''#### My previously developed applications:
+
+[** Forecast App **](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
+
+[** Vaccines Tracking (Italy) **](https://share.streamlit.io/giandata/vaccini-italia-covid/dashboard.py)
 ''')
 
 st.header("Professional Experiences 💼")
